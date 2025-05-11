@@ -1,142 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CVN Kalari UK</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     body {
+      font-family: sans-serif;
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #f4faff;
-      color: #111;
-      line-height: 1.6;
+      background: #f9f9f9;
+      color: #222;
     }
-
     header {
-      background-color: #0077b6;
-      color: white;
-      padding: 2rem 1rem;
       text-align: center;
+      padding: 20px;
     }
-
-    nav {
-      background: #e0f2fe;
+    header img {
+      max-width: 200px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+    .intro {
       text-align: center;
-      padding: 1rem;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
     }
-
-    nav a {
-      margin: 0 1rem;
-      color: #0077b6;
-      text-decoration: none;
-      font-weight: 600;
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
     }
-
-    section {
-      padding: 2rem 1.5rem;
-      max-width: 900px;
-      margin: auto;
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
     }
-
-    h2 {
-      color: #023e8a;
-      margin-bottom: 0.5rem;
-    }
-
-    .contact {
-      background: #caf0f8;
-      border-radius: 10px;
-      padding: 1rem;
-    }
-
-    .trainer {
-      background: #d0f4ea;
-      border-radius: 10px;
-      padding: 1rem;
-    }
-
     footer {
+      background: #222;
+      color: #fff;
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 20px;
       font-size: 0.9rem;
-      color: #666;
-    }
-
-    @media (min-width: 768px) {
-      nav a {
-        margin: 0 2rem;
-      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>CVN Kalari UK</h1>
-    <p><em>“Ancient, Inspired Minds”</em></p>
+    <img src="logo.jpg.jpg" alt="CVN Kalari UK Logo" />
+    <h1>Ancient Art, Inspired Minds</h1>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#classes">Classes</a>
-    <a href="#trainer">Instructor</a>
-    <a href="#events">Events</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-      Welcome to CVN Kalari UK, the home of Kalaripayattu – the ancient martial art of Kerala, India. We are committed to preserving this unique art form while making it accessible to modern minds.
-    </p>
-    <p>
-      Our approach combines physical discipline, mental focus, and cultural wisdom. Through dynamic movements, postures, and breathing techniques, we help individuals build strength, flexibility, and resilience.
-    </p>
+  <section class="intro">
+    <p>Welcome to CVN Kalari UK — where the ancient martial art of Kalaripayattu meets modern practice. We offer classes in Oxford and Milton Keynes, focusing on physical strength, mental clarity, and cultural heritage.</p>
   </section>
 
-  <section id="classes">
-    <h2>Class Schedule</h2>
-    <ul>
-      <li><strong>Oxford:</strong> Saturdays, 10–11 AM<br>
-      Cowley Road Methodist Church, OX4 1JB</li>
-      <br>
-      <li><strong>Milton Keynes:</strong> Thursdays & Sundays, 6–7 PM<br>
-      Shenley Leisure Centre, MK5 6HF</li>
-    </ul>
-  </section>
-
-  <section id="trainer" class="trainer">
-    <h2>Instructor</h2>
-    <p>
-      <strong>Hrishikesh Kizhikkiyil</strong> is an internationally acclaimed Kalaripayattu expert, trained at CVN Kalari Nadakkavu in Kerala and CVN Kalari Japan. He has represented India at major cultural festivals in Taiwan, Spain, Vietnam, and taught across countries like France, Germany, Mauritius, Dubai, and the UK.
-    </p>
-  </section>
-
-  <section id="events">
-    <h2>Events & Performances</h2>
-    <p>
-      In addition to classes, we offer live Kalaripayattu performances, workshops, and cultural presentations. Reach out if you’d like to host or attend an event.
-    </p>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <p>
-      📞 <strong>Hrishikesh:</strong> +44 7818 975 459<br>
-      📞 <strong>Dao Shu Oxford:</strong> +44 7816 868 100<br>
-      📧 <strong>Email:</strong> <a href="mailto:cvnkalariuk@gmail.com">cvnkalariuk@gmail.com</a><br>
-      📧 <strong>Oxford Enquiries:</strong> <a href="mailto:daoshuoxford@gmail.com">daoshuoxford@gmail.com</a>
-    </p>
-    <p>
-      📍 <strong>Locations:</strong> Oxford & Milton Keynes, UK
-    </p>
+  <section class="gallery">
+    <img src="PHOTO-2025-01-26-10-51-50.jpg" alt="Kalari training" />
+    <img src="PHOTO-2024-11-24-21-47-41 (1).jpg" alt="Training image" />
+    <img src="IMG_5493 (1).JPG" alt="Kalari movement" />
+    <img src="PHOTO-2024-11-24-21-47-44 (1).jpg" alt="Practice session" />
+    <img src="PHOTO-2024-11-24-21-47-41.jpg" alt="Training photo" />
+    <img src="PHOTO-2024-11-24-21-47-46.jpg" alt="Kalari demo" />
+    <img src="20250323_210343.jpg" alt="Class in progress" />
+    <img src="20250323_185916 (1).jpg" alt="Kalari pose" />
   </section>
 
   <footer>
-    © 2025 CVN Kalari UK. All rights reserved.
+    <p>📍 Oxford & Milton Keynes, UK</p>
+    <p>📞 +44 7818 975 459 | ✉️ cvnkalariuk@gmail.com</p>
   </footer>
 
 </body>
