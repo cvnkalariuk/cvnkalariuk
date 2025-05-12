@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111;
+}
+
+header {
+  background-color: #e63946;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.session {
+  background: #fbecec;
+  border-left: 5px solid #e63946;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
